@@ -27,10 +27,11 @@ function show(data2) {
   let tab = `
     <thead>
     <tr>
-    <th>cityName</th>
-    <th>weightOfPlastic</th>
-    <th>weightOfBioPlastic</th>
-    <th>municipalityName</th>
+    <th>#</th>
+    <th>şəhər</th>
+    <th>Bələdiyyə Adı</th>
+    <th>Plastik kütlə</th>
+    <th>Bio Plastik kütlə</th>
     </tr>
     </thead>
     `;
@@ -38,10 +39,11 @@ function show(data2) {
       tab += `
       <tbody>
       <tr> 
+      <td>${r.id}</td>
       <td>${r.cityName}</td>
+      <td>${r.municipalityName}</td>          
       <td>${r.weightOfPlastic}</td>
       <td>${r.weightOfBioPlastic}</td> 
-      <td>${r.municipalityName}</td>          
       </tr>
       </tbody>`;
     }
