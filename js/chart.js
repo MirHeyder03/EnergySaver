@@ -100,7 +100,7 @@ $(function () {
     ],
 
     // These labels appear in the legend and in the tooltips when hovering different arcs
-    labels: ["plastik", "şüşə", "digər"],
+    labels: ["plastik", "bioplastik", "digər"],
   };
   var doughnutPieOptions = {
     responsive: true,
@@ -114,7 +114,7 @@ $(function () {
     datasets: [
       {
         label: "# of Votes",
-        data: [12, 19, 3, 5, 2, 3],
+        data: [8, 12, 13, 15, 22, 23],
         backgroundColor: [
           "rgba(255, 99, 132, 0.2)",
           "rgba(54, 162, 235, 0.2)",
